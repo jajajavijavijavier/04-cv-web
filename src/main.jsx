@@ -6,9 +6,9 @@ import './header.css';
 import './lettersName.css';
 import './aboutMe.css';
 
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+const rootElement = document.getElementById('root');
+ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
-    <App/>
+    <App />
   </React.StrictMode>
 )

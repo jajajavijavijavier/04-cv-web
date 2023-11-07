@@ -1,0 +1,256 @@
+
+.aboutMeEffect {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: no-repeat;
+    background-size: cover;
+    background-image:url('imgs/backgrounds/bluetrie.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: circle(0px at center center);
+  }
+  
+  .innerTextAboutMe{
+    position: fixed;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    z-index: 1;
+    font-size: 12rem;
+    color: #000;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .aboutMeInfo{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-top: 100vh;
+    padding: 100px;
+  }
+  
+  .aboutMeInfo h1 {
+    margin-bottom: 20px;
+  }
+  
+  .titleAboutMe {
+    position: absolute;
+    right: 50%;
+    top: 23%;
+    left: 10%;
+    justify-content: left;
+    color: #3D3D3D;
+    text-align: left;
+    font-size: 40px;
+  }
+  
+  .infoAboutMe{
+    position: absolute;
+    right: 50%;
+    top: 30%;
+    left: 10%;
+    margin-left: auto;
+    justify-content: left;
+    color: #3D3D3D;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+  }
+  
+  .content {
+    height: 80vh;
+  }
+  
+  
+  .button {
+    --bg: #000;
+    --hover-bg: #87cef7;
+    --hover-text: #000;
+    position: absolute;
+    right: 60%;
+    top: 65%;
+    left: 30%;
+    color: #fff;
+    border: 1px solid var(--bg);
+    border-radius: 10px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+  
+  .avatarAboutMe {
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    border-radius: 100%;
+    width: 120px;
+  }
+  
+  .lenguagues {
+    position: absolute;
+    right: 10%;
+    top: 60%;
+    left: 12%;
+    justify-content: left;
+    color: #3D3D3D;
+    text-align: left;
+    font-size: 20px;
+      letter-spacing: 2px;
+    line-height: 40px;
+  }
+
+  .containerAboutMe{
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    display: flex;
+    width: 36%;
+    height: 20%;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, #6666d5 , #a4e5ee);
+    transition: .5s;
+    padding: 20px;
+  }
+
+  .con-info-name{
+    position: absolute;
+    right: 50%;
+    top: 20%;
+    left: 7%;
+    justify-content: left;
+    color: #fff;
+    text-align: left;
+    font-size: 30px;
+  }
+
+  .con-info-place{
+    position: absolute;
+    right: 50%;
+    top: 43%;
+    left: 7%;
+    justify-content: left;
+    color: #d8d4d4;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .con-info-age {
+    position: absolute;
+    right: 50%;
+    top: 58%;
+    left: 7%;
+    justify-content: left;
+    color: #d8d4d4;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .containerAboutMe-Dos{
+    position: absolute;
+    left: 60%;
+    top: 42%;
+    display: flex;
+    width: 17%;
+    height: 25%;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, #6666d5 , #a4e5ee);
+    transition: .5s;
+    padding: 20px;
+  }
+
+  .con-icons-social-linkedin{
+    position: absolute;
+    right: 50%;
+    top: 20%;
+    left: 7%;
+    color: #fff;
+    font-size: 40px;
+    transition: .5s;
+  }
+
+  .con-icons-social-linkedin:hover{
+    color: #000;
+    font-size: 43px;
+    transition: .5s;
+  }
+
+  .con-icons-social-github{
+    position: absolute;
+    right: 7%;
+    top: 20%;
+    left: 50%;
+    color: #fff;
+    font-size: 40px;
+  }
+
+  .con-icons-social-github:hover{
+    color: #000;
+    font-size: 43px;
+    transition: .5s;
+  }
+
+  .con-icons-social-discord{
+    position: absolute;
+    right: 50%;
+    top: 60%;
+    left: 7%;
+    color: #fff;
+    font-size: 40px;
+  }
+
+  .con-icons-social-discord:hover{
+    color: #000;
+    font-size: 43px;
+    transition: .5s;
+  }
+
+  .con-icons-social-instagram{
+    position: absolute;
+    right: 7%;
+    top: 60%;
+    left: 50%;
+    color: #fff;
+    font-size: 40px;
+  }
+
+  .con-icons-social-instagram:hover{
+    color: #000;
+    font-size: 43px;
+    transition: .5s;
+  }
+
+  .containerAboutMe-Tres{
+    position: absolute;
+    left: 79%;
+    top: 42%;
+    display: flex;
+    width: 17%;
+    height: 25%;
+    border-radius: 30px;
+    background-image: url('imgs/mapa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .5s;
+    padding: 20px;
+  }

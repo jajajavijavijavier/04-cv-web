@@ -1,0 +1,69 @@
+.navListStyle {
+    color: #3D3D3D;
+    font-size: 24px;
+    letter-spacing: 0.56px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    padding: 10;
+    transition: .5s;
+  }
+  
+  .navListStyle :hover{
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+  }
+  
+  .navItemStyle {
+    margin-right: 60px;
+  }
+  
+  .icons-social :hover{
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+  }
+  
+  .icons-social{
+    font-size: 24px;
+    margin-left: 30px;
+    color: #3D3D3D;
+    transition: .5s;
+  }
+  
+  .tw-followCard-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+  }
+  
+  .redes-header{
+    height: 30px;
+    text-align: left;
+    padding: 1px 0 1px;
+  }
+  
+  .headerStyle {
+    height: 30px;
+    padding: 1px 0 1px;
+  } 
+
+    
+  header{
+    position: fixed;
+    z-index: 1;
+  }
+
+  .menus{
+    left : 160%;
+    right: 10%;
+    top: 30%;
+    position: relative;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }

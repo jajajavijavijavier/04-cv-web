@@ -1,7 +1,8 @@
 import { FaGithub, FaLinkedin, FaDiscord, FaInstagram } from 'react-icons/fa'
+import cv from '../pdf/curriculum.pdf'
+
 export function AboutMe () {
   return (
-
     <div className='tw-aboutMe'>
       <h1 className='titleAboutMe'>Hi, a litle bit of me</h1>
       <p className='infoAboutMe'> I am passionate about web programming, on the frontend and backend. I have completed web development projects  </p>
@@ -12,7 +13,9 @@ export function AboutMe () {
         <li>JavaScript</li>
         <li>HTML - CSS </li>
       </ul>
-      <button className='button'> CV </button>
+
+      <a href={cv} download='curriculum.pdf' className='button'> CV </a>
+
       <div className='containerAboutMe'>
         <h1 className='con-info-name'>Javier Izael </h1>
         <h1 className='con-info-place'>Mexico, Qro. 🇲🇽 </h1>

@@ -27,7 +27,7 @@ function App () {
       <section className='projects hidden ' id='part-projects'>
 
         <div className='projectsContainer'>
-          <a className='linkProject'>Link</a>
+          <a className='linkProject' href='http://www.cb-ciidet.com/Aprendiendo/index.php'>Link</a>
           <h1 className='titleProject'>METAMODELO INTRUCCIONAL</h1>
           <p className='resumeProject'>This website creates and stores course metamodels in a database, where users can design courses, search for them, and manage them through the platform.</p>
           <div className='lenguaguesProject'>
@@ -36,7 +36,7 @@ function App () {
         </div>
 
         <div className='projectsContainerDos'>
-          <a className='linkProject'>Link</a>
+          <a className='linkProject' href='https://jajajavijavijavier.github.io/01-game-gato/'>Link</a>
           <h1 className='titleProject'>Game Gato</h1>
           <p className='resumeProject'>This website is a cat game where each player has a turn created with react</p>
           <div className='lenguaguesProject'>
@@ -45,7 +45,7 @@ function App () {
         </div>
 
         <div className='projectsContainerTres'>
-          <a className='linkProject'>Link</a>
+          <a className='linkProject' href='https://jajajavijavijavier.github.io/Techwear'>Link</a>
           <h1 className='titleProject'>Tech Wear</h1>
           <p className='resumeProject'>This website is a page of the tech wear brand where it shows information and products (personal project)</p>
           <div className='lenguaguesProject'>

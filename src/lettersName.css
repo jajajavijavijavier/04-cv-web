@@ -32,6 +32,52 @@
     font-size: 96px;
   }
   
+
+
+/* Estilos para pantallas más pequeñas, como iPhones */
+
+@media (max-width: 750px){
+
+  .nombreIza {
+    position: absolute;
+    right: 16%;
+    top: 55%;
+    justify-content: center;
+    color: #3D3D3D;
+    text-align: center;
+    font-size: 96px;
+  }
+  
+  .subtitulo {
+    right: 44%;
+    top: 35%;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 0.96px;
+    color: #6C63FF;
+  }
+  
+  .nombreJav {
+   position: absolute;
+   right: 20%;
+   top: 45%;
+   justify-content: center;
+   flex-shrink: 0;
+   color: #3D3D3D;
+   text-align: center;
+   font-family: Montserrat;
+   font-size: 96px;
+  }
+
+
+}
+
+
+
+
+
   
   
   

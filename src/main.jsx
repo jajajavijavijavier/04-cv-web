@@ -5,6 +5,7 @@ import './index.css'
 import './header.css'
 import './lettersName.css'
 import './aboutMe.css'
+import './projects.css'
 
 const rootElement = document.getElementById('root')
 ReactDOM.createRoot(rootElement).render(

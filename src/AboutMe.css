@@ -254,3 +254,97 @@
     transition: .5s;
     padding: 20px;
   }
+
+
+
+@media (max-width: 750px){
+
+  .aboutMeInfo{
+    width: 100%;
+    height: 200vh;
+    position: relative;
+    margin-top: 100vh;
+    padding: 100px;
+  }
+  
+  .titleAboutMe {
+    right: 10%;
+    left: 10%;
+    font-size: 30px;
+  }
+
+  .infoAboutMe{
+    top: 26%;
+    right: 10%;
+    left: 10%;
+    font-size: 15px;
+  }
+
+  .lenguagues {
+    top: 40%;
+  }
+
+  .button {
+    right: 30%;
+    top: 51%;
+    left: 30%;
+  }
+
+  .avatarAboutMe {
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    border-radius: 100%;
+    width: 80px;
+  }
+  
+  .containerAboutMe{
+    left: 7%;
+    top: 60%;
+    width: 86%;
+    height: 10%;
+  }
+
+  .con-info-name{
+    font-size: 20px;
+  }
+
+  .con-info-place{
+    font-size: 17px;
+  }
+
+  .con-info-age {
+    font-size: 17px;
+  }
+
+  .containerAboutMe-Dos{
+    left: 10%;
+    top: 72%;
+    width: 36%;
+    height: 13%;
+  }
+
+  .con-icons-social-linkedin{
+    font-size: 30px;
+  }
+
+  .con-icons-social-github{
+    font-size: 30px;
+  }
+
+  .con-icons-social-discord{
+    font-size: 30px;
+  }
+
+  .con-icons-social-instagram{
+    font-size: 30px;
+  }
+
+  .containerAboutMe-Tres{
+    left: 55%;
+    top: 72%;
+    width: 36%;
+    height: 13%;
+  }
+
+}

@@ -1,0 +1,207 @@
+
+.titleProjects{
+    position: absolute;
+    top: 25%;
+    font-size: 30px;
+  }
+  
+  .projects {
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 100px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: no-repeat;
+    background-size: cover;
+  }
+   /*Contenerdor 1 */
+  .projectsContainer {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    display: flex;
+    width: 36%;
+    height: 35%;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, #00AFB9 , #FED9B7);
+    transition: .5s;
+    padding: 20px;
+  }
+  
+  .projectsContainer:hover{
+    border-radius: 80px;
+    border-color: #fff;
+    transition: .5s;
+  }
+  
+  .projectsContainer:hover .linkProject{
+    opacity: 1;
+    pointer-events: auto;
+    transition: 1s;
+    top: -1%;
+  }
+   /*Contenerdor 2*/
+  .projectsContainerDos {
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    display: flex;
+    width: 36%;
+    height: 35%;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, #F07167 , #FED9B7);
+    transition: .5s;
+    padding: 20px;
+  }
+  
+  .projectsContainerDos:hover{
+    border-radius: 80px;
+    border-color: #fff;
+    transition: .5s;
+  }
+  
+  .projectsContainerDos:hover .linkProject{
+    opacity: 1;
+    pointer-events: auto;
+    transition: 1s;
+    top: -1%;
+  }
+   /*Contenerdor 3 */
+  .projectsContainerTres {
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    display: flex;
+    width: 36%;
+    height: 35%;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, #6666d5 , #a4e5ee);
+    transition: .5s;
+    padding: 20px;
+  }
+  
+  .projectsContainerTres:hover{
+    border-radius: 80px;
+    border-color: #fff;
+    transition: .5s;
+  }
+  
+  .projectsContainerTres:hover .linkProject{
+    opacity: 1;
+    pointer-events: auto;
+    transition: 1s;
+    top: -1%;
+  }
+  
+  .titleProject{
+    margin: 30px auto; 
+    line-height: 30px;
+    font-size: 30px;
+  }
+  
+  .resumeProject{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    left: 10%;
+    font-size: 15px;
+  }
+  
+  .lenguaguesProject {
+    background-color: #fff;
+    width: 45%;
+    height: 24%;
+    position: absolute;
+    border-radius: 25px;
+    top: 83%;
+    left: 70%;
+    margin-left: 0px;
+  }
+  
+  .lenguaguesProject p {
+    width: 50%;
+    height: 20%;
+    border-radius: 25px;
+    top: 25%;
+    left: 10%;
+    font-size: 25px;
+    color: #3D3D3D; 
+  }
+  
+  .linkProject{
+    opacity: 0;
+    position: absolute;
+    top: -5%;
+    left: 45%;
+    font-size: 16spx;
+    background: #ffffff;
+    color: #3D3D3D;
+    padding: 5px 8px;
+    border-radius: 7px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: 1s;
+  }
+  
+  
+
+  @media (max-width: 750px){
+
+    .titleProjects{
+        position: absolute;
+        top: 25%;
+        font-size: 0px;
+      }
+      
+      .projects {
+        background-color: #000;
+        width: 100%;
+        height: 200vh;
+        position: relative;
+        padding: 100px;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: no-repeat;
+        background-size: cover;
+      }
+       /*Contenerdor 1 */
+      .projectsContainer {
+        left: 15%;
+        top: 10%;
+        width: 76%;
+        height: 20%;
+      }
+
+       /*Contenerdor 2*/
+      .projectsContainerDos {
+        left: 15%;
+        top: 37%;
+        width: 76%;
+        height: 20%;
+      }
+      
+       /*Contenerdor 3 */
+      .projectsContainerTres {
+        left: 15%;
+        top: 64%;
+        width: 76%;
+        height: 20%;
+      }
+      
+      .lenguaguesProject {
+        width: 45%;
+        height: 20%;
+      }
+      
+      .lenguaguesProject p {
+        font-size: 20px;
+      }
+      
+  }
